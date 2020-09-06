@@ -1,0 +1,19 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "It is an weather app created using open weather map API. And it is build with vanilla JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManojKumarMRK/WeatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManojKumarMRK/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/ManojKumarMRK/WeatherApp#readme"
+}
