@@ -1,0 +1,90 @@
+
+body{
+    background-image: linear-gradient(rgb(3, 102, 188),rgb(30, 125, 204));
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding:  0 10px;
+    
+}
+.wrap{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0.8;
+ font-family: Arial,  sans-serif;
+ 
+
+}
+.head{
+  font-size: 25px;  
+  font-family: 'Roboto', sans-serif;
+  margin: 40px 0;
+}
+.wrap .place{
+    font-size: 15px;  
+    margin: 10px 0;
+   
+    
+  }
+.wrap .date, .wrap .time{
+    font-size: 15px; 
+    margin: 5px 0 ; 
+    
+  }
+.wrap .degree{
+    font-size: 40px;  
+    font-weight: 700;
+    margin: 10px 0 ; 
+    cursor: pointer;
+    
+
+
+}
+.wrap .description{
+    font-size: 15px; 
+    margin: 5px 0 ; 
+}
+
+#icon{
+  height: 100px;
+  width: 100px;
+}
+
+.degree a{
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+
+@media screen and (min-width: 600px){
+
+
+  #icon{
+    height: 200px;
+    width: 200px;
+  }
+  .wrap .degree{
+    font-size: 80px;  
+    font-weight: 700;
+    margin: 8px 0 ; 
+    }
+ .head{
+   font-size: 70px;  
+   font-family: 'Roboto', sans-serif;
+   margin: 40px 0 30px 0;
+  }
+  .wrap .place{
+    font-size: 28px;  
+    margin: 8px 0;
+  }
+  .wrap .date, .wrap .time{
+    font-size: 18px; 
+    margin: 5px 0 ; 
+    
+  }  
+
+
+
+}
